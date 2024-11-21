@@ -1,0 +1,92 @@
+ \\ -----------------------------------------------------------------------------------\\ Home admin---------------------------------------------------------------------------------------------------------------------------------   
+      
+        /* Custom style for a modern look */
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        .tab-custom .nav-tabs .nav-link {
+            color: #555;
+            font-weight: bold;
+            border-radius: 5px 5px 0 0;
+        }
+        .tab-custom .nav-tabs .nav-link.active {
+            color: #fff;
+            background-color: #343a40;
+        }
+
+        .form-section {
+            border: 1px solid #ced4da;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .form-section label {
+            font-weight: bold;
+            color: #343a40;
+        }
+        .form-section input[type="text"], .form-section textarea {
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+
+        .poster {
+            background-color: #e9ecef;
+            border: 1px dashed #ced4da;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #6c757d;
+            border-radius: 5px;
+        }
+
+        .btn-custom {
+            background-color: #343a40;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-right: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #495057;
+        }
+        .btn-reset {
+            background-color: #6c757d;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .table-container {
+            border: 1px solid #ced4da;
+            border-radius: 10px;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .table tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .pagination-btns .btn {
+            margin: 0 3px;
+            border-radius: 5px;
+            font-weight: bold;
+            background-color: #343a40;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+        .pagination-btns .btn:hover {
+            background-color: #495057;
+        }

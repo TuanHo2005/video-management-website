@@ -1,0 +1,206 @@
+:root {
+            --backflix-red: #E50914;
+            --backflix-black: #141414;
+        }
+        
+        body {
+            background-color: var(--backflix-black);
+            color: white;
+        }
+        
+        .navbar-backflix {
+            background-color: transparent;
+            transition: background-color 0.3s;
+            padding: 1rem 4%;
+        }
+        
+        .navbar-backflix.scrolled {
+            background-color: var(--backflix-black);
+        }
+        
+        .backflix-logo {
+            height: 40px;
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--backflix-red);
+            text-decoration: none;
+            font-family: 'Arial Black', sans-serif;
+        }
+        
+        .backflix-logo:hover {
+            color: var(--backflix-red);
+        }
+        
+        .hero-section {
+            min-height: 80vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                        url('https://assets.nflxext.com/ffe/siteui/vlv3/00103100-5b45-4d4f-af32-342649f1bda5/64774cd8-5c3a-4823-a0bb-1610d6971bd4/VN-en-20230821-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .get-started-btn {
+            background-color: var(--backflix-red);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            font-size: 1.5rem;
+            border: none;
+        }
+        
+        .movie-card {
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+        
+        .movie-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .movie-card img{
+        	height: 250px;
+        }
+        
+        
+     \\ css detail
+     
+        :root {
+            --backflix-red: #E50914;
+            --backflix-black: #141414;
+            --backflix-dark-gray: #181818;
+            --backflix-light-gray: #2F2F2F;
+        }
+        
+        body {
+            background-color: var(--backflix-black);
+            color: white;
+        }
+        
+        .navbar-backflix {
+            background-color: var(--backflix-black);
+            padding: 1rem 4%;
+        }
+        
+        .backflix-logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--backflix-red);
+            text-decoration: none;
+        }
+        
+       
+        
+        .movie-info {
+            position: relative;
+            margin-top: -150px;
+        }
+        
+        .movie-poster {
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+        
+        
+        
+        .action-btn {
+            background-color: var(--backflix-red);
+            color: white;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+        
+        .action-btn:hover {
+            background-color: #ff0f1f;
+            transform: scale(1.05);
+        }
+        
+        .interaction-btn {
+            background-color: var(--backflix-light-gray);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: all 0.3s;
+            margin: 0 5px;
+        }
+        
+        .interaction-btn:hover {
+            background-color: var(--backflix-red);
+        }
+        
+        .interaction-btn.active {
+            background-color: var(--backflix-red);
+        }
+        
+        .episode-card {
+            background-color: var(--backflix-dark-gray);
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+        
+        .episode-card:hover {
+            background-color: var(--backflix-light-gray);
+            transform: scale(1.02);
+        }
+        
+        .share-dropdown-menu {
+            background-color: var(--backflix-dark-gray);
+            border: 1px solid var(--backflix-light-gray);
+        }
+        
+        .share-dropdown-menu .dropdown-item {
+            color: white;
+        }
+        
+        .share-dropdown-menu .dropdown-item:hover {
+            background-color: var(--backflix-light-gray);
+        }
+        
+        .rating-stars {
+            color: #ffc107;
+        }
+        
+        .episode-thumbnail {
+            width: 160px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        
+        .movie-info .movie-poster,
+.movie-info .video-container video {
+    width: 800px;
+    height: auto;
+}
+
+.movie-info .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+\\ css của đăng nhập
+
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+footer {
+    margin-top: 50px;
+}
+     
+   
+   
+       
+        
+       
